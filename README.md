@@ -41,56 +41,78 @@ graph TD
 
 ---
 
-## 🚀 Setup & Execution Instructions
+## 🚀 Installation & Setup Guide
 
-### ⚡ Automated Setup (Windows Only)
-1. Double-click the `setup.bat` script.
-2. The script will automatically create a Python virtual environment (`.venv`), upgrade `pip`, install all dependencies, and prepare project folders.
-3. Once completed, activate the virtual environment and run the application:
-   ```bash
-   .venv\Scripts\activate
-   streamlit run app.py
-   ```
+Follow these step-by-step instructions to get the application running on your local machine.
+
+### 📋 Prerequisites
+Make sure you have the following installed on your system:
+*   [Python 3.8 or higher](https://www.python.org/downloads/)
+*   [Git](https://git-scm.com/downloads)
 
 ---
 
-### 🛠️ Manual Setup (macOS / Linux / Windows)
+### 💻 Step-by-Step Installation
 
-#### 1. Clone & Navigate to Repository
+#### 1. Clone the Repository
+Open your terminal (macOS/Linux) or Command Prompt/PowerShell (Windows) and run:
 ```bash
-git clone <your-repository-url>
-cd "Intelligent Resume Ranking"
+git clone https://github.com/Uttkarsh55/Intelligent-Resume-Ranking-System.git
+cd Intelligent-Resume-Ranking-System
 ```
 
-#### 2. Create a Virtual Environment
-```bash
-# macOS/Linux
-python3 -m venv .venv
+#### 2. Set Up a Virtual Environment
+It is highly recommended to use a virtual environment to avoid dependency conflicts.
 
-# Windows
-python -m venv .venv
-```
+*   **macOS / Linux**:
+    ```bash
+    python3 -m venv .venv
+    ```
+*   **Windows**:
+    ```bash
+    python -m venv .venv
+    ```
 
 #### 3. Activate the Virtual Environment
-```bash
-# macOS/Linux
-source .venv/bin/activate
+Activate the environment you just created.
 
-# Windows (Command Prompt)
-.venv\Scripts\activate.bat
+*   **macOS / Linux**:
+    ```bash
+    source .venv/bin/activate
+    ```
+*   **Windows (Command Prompt)**:
+    ```bash
+    .venv\Scripts\activate.bat
+    ```
+*   **Windows (PowerShell)**:
+    ```bash
+    .\.venv\Scripts\Activate.ps1
+    ```
 
-# Windows (PowerShell)
-.\.venv\Scripts\Activate.ps1
-```
-
-#### 4. Install Dependencies
+#### 4. Install Required Dependencies
+Once the virtual environment is active, upgrade `pip` and install all the project requirements:
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-#### 5. Run the Application
+---
+
+### 🏃 Running the Application
+
+To launch the web interface, run the following command in your terminal (with the virtual environment still active):
 ```bash
+streamlit run app.py
+```
+
+This will automatically open the application in your default web browser. If it doesn't, navigate to the local URL shown in your terminal (usually `http://localhost:8501`).
+
+---
+
+### ⚡ Automated Windows Setup (Alternative)
+If you are on Windows, you can automate virtual environment creation and package installation by simply double-clicking the `setup.bat` file in the project folder. Once the script finishes, run:
+```bash
+.venv\Scripts\activate
 streamlit run app.py
 ```
 
@@ -109,5 +131,3 @@ streamlit run app.py
     ├── job_descriptions/ # Sample job requirements (.txt files)
     └── resumes/          # Realistic candidate resumes (.pdf files)
 ```
-
----
