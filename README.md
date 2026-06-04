@@ -1,6 +1,6 @@
 # 🤖 Intelligent Resume Ranking System
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Enabled-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -55,7 +55,7 @@ Intelligent-Resume-Ranking-System/
 
 ### Prerequisites
 Make sure you have the following installed on your system:
-*   **Python 3.8 or higher**
+*   **Python 3.10 or higher**
 *   **Git**
 
 ---
