@@ -19,7 +19,6 @@ The app features a multi-format file parser, smart contact info extraction, subl
 *   **🔍 Smart Contact Info Extraction**: Employs robust regex patterns to automatically parse candidate email addresses and phone numbers.
 *   **🛡️ Anti-Keyword Stuffing Mechanism**: Utilizes logarithmic term scaling (`sublinear_tf=True` in TF-IDF Vectorizer) so candidates cannot artificially inflate their ranking scores by repeating keywords.
 *   **💻 Technical Keyword Preservation**: Features custom tokenizer patterns to preserve essential developer/engineering keywords like `C++`, `C#`, `.NET`, and `Node.js` that standard tokenizers strip away.
-*   **📊 Interactive Visualizations**: Renders rich Plotly charts showing score distributions and candidate comparisons.
 *   **🎯 Skill Gap Analysis**: Shows exact matched and missing keywords for any selected candidate, highlighting strengths and missing requirements.
 *   **📥 Data Export**: Allows downloading full results in CSV format for seamless integration with ATS (Applicant Tracking Systems).
 
