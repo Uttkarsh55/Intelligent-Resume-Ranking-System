@@ -112,26 +112,6 @@ streamlit run app.py
 
 ---
 
-## 📽️ Demo Video Guide (3-5 Minutes)
-
-When recording your demonstration or presentation, follow this rubric-aligned structure:
-
-### 1. Introduction (0:00 - 0:45)
-*   State your name, objective, and the goal of the Intelligent Resume Ranking System.
-*   Show the step-by-step Streamlit UI and navigate to the Job Description wizard screen.
-
-### 2. Architecture & Pipeline (0:45 - 1:30)
-*   Explain how raw resumes are converted into TF-IDF vectors.
-*   Describe the cosine similarity mechanism that measures proximity between candidate skills and the job criteria.
-
-### 3. Under the Hood / Code Walkthrough (1:30 - 2:30)
-*   **Regex Parsing (`resume_parser.py`)**: Show how contact information (emails and phone numbers) is parsed.
-*   **Robust NLP Cleaning (`ranker.py`)**: Explain how the parser handles custom symbols (`C++`, `C#`, etc.) and handles logarithmic scale term frequency (`sublinear_tf=True`) to suppress keyword stuffing.
-
-### 4. Interactive Live Demo (2:30 - 3:45)
-*   **Step 1**: Input a sample Job Description from `sample_data/job_descriptions/` and press Continue.
-*   **Step 2**: Upload the resumes from `sample_data/resumes/` and run the analysis.
-*   **Step 3**: Walk through the results: show rankings, the Plotly score distribution chart, individual keyword gap analysis, and export the CSV results.
 
 ### 5. Challenges & Solutions (3:45 - 5:00)
 *   *Challenge*: Standard scikit-learn tokenizers stripping `+`, `#`, and `.`.
