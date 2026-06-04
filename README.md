@@ -111,10 +111,3 @@ streamlit run app.py
 ```
 
 ---
-
-
-### 5. Challenges & Solutions (3:45 - 5:00)
-*   *Challenge*: Standard scikit-learn tokenizers stripping `+`, `#`, and `.`.
-    *   *Solution*: Implemented a custom token pattern regex that retains programming-specific symbols.
-*   *Challenge*: Candidates artificially boosting ranks by repeating keywords.
-    *   *Solution*: Handled using `sublinear_tf=True` to scale frequency sub-linearly.
