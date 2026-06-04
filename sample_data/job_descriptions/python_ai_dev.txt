@@ -1,0 +1,26 @@
+Job Title: Python AI Developer
+Location: Remote / Mumbai, India
+Experience: 2+ Years
+
+About Us:
+CampusPull is an innovative platform connecting university talent with top-tier hiring partners. We are building intelligent matching algorithms to streamline hiring and are looking for a skilled Python AI Developer to join our team.
+
+Responsibilities:
+- Design, develop, and maintain high-performance Python applications and APIs.
+- Implement Machine Learning and NLP models for resume parsing and search recommendation systems.
+- Preprocess structured and unstructured text data for training and analysis.
+- Collaborate with frontend engineers to integrate AI models into user interfaces using FastAPI and Streamlit.
+- Containerize applications using Docker and deploy them to cloud platforms.
+- Manage source code using Git and GitHub, ensuring high code quality through unit testing.
+
+Required Technical Skills:
+- Programming Languages: Python, SQL
+- Machine Learning & NLP: scikit-learn, PyTorch, pandas, numpy
+- APIs & Web Frameworks: FastAPI, Flask
+- DevOps & Tools: Docker, Git, GitHub
+
+Preferred Qualifications:
+- Familiarity with TF-IDF, Cosine Similarity, and vector search techniques.
+- Experience with relational databases like PostgreSQL.
+- Strong communication and problem-solving skills.
+- Ability to work in an agile development environment.

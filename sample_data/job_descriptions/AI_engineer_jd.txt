@@ -1,0 +1,58 @@
+We are building AI-native platforms that combine engineering, automation, and intelligent agents to solve real business problems. Our work focuses on building systems where multiple AI agents collaborate, automate workflows, and drive real outcomes.
+
+This is not a typical internship. You will work directly on real AI systems involving autonomous agents, orchestration frameworks, and open-source LLM infrastructure.
+
+Role Overview
+
+We are looking for a highly curious AI Agent Engineer Intern who is passionate about building systems using modern agent frameworks and open models.
+
+You will help design, build, and experiment with AI agent workflows, orchestration pipelines, and automation systems that combine LLMs with real-world tools and APIs.
+
+Responsibilities
+• Build and experiment with AI agent workflows
+• Develop multi-agent systems using modern orchestration frameworks
+• Integrate agents with APIs, tools, and external data sources
+• Build automation pipelines for complex workflows
+• Work with open-source LLMs and local inference environments
+• Prototype and test new ideas in agent collaboration and task automation
+• Contribute to internal AI infrastructure and developer tools
+
+Required Skills
+• Familiarity with AI agent frameworks and tools
+• Hands-on experience with tools such as
+• OpenClaw
+• n8n
+• LangGraph
+• CrewAI
+• Experience working with local/open LLMs
+• Familiarity with model runtimes like Ollama
+• Experience with open models such as LLaMA, Qwen, or similar
+• Strong understanding of Python
+• Understanding of APIs, JSON, and workflow automation
+• Ability to experiment and rapidly prototype
+
+Good to Have
+• Experience with vector databases (Chroma, Weaviate, Pinecone)
+• Understanding of RAG pipelines
+• Experience with Docker or local AI infrastructure
+• Experience deploying LLM applications
+
+What You Will Learn
+• Designing production-grade agent systems
+• Working with multi-agent orchestration frameworks
+• Deploying local and open-source LLM stacks
+• Building AI-first automation systems
+• Real-world experience in AI product engineering
+
+Who Should Apply
+• Students or recent graduates in Computer Science / AI / Engineering
+• Builders who love experimenting with new AI tools
+• People who learn fast and ship fast
+
+Bonus Points
+
+Show us something you built:
+• AI agents
+• automation workflows
+• open source contributions
+• interesting side projects
